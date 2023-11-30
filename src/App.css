@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.pokemon-selection,
+.pokemon-selections,
+.messaging {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.join-room {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.pokemon-selection,
+.pokemon-selections,
+.messaging {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.selection {
+  font-style: italic;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.messages {
+  background-color: #754f4f; /* Light grey background for messages */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.messages p {
+  background-color: #6794c0; /* Slightly darker grey for individual messages */
+  padding: 10px;
+  border-radius: 5px;
+}
