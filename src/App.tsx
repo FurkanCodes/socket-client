@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 import io from 'socket.io-client'
-const socket = io('http://localhost:3001')
+const socket = io('https://socket-server-h6q4.onrender.com')
 
 function App() {
   const [message, setMessage] = useState<string>('')
